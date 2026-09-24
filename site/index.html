@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Vault Studio Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="proto-banner" role="note"><span><b>Prototype</b> · example data · nothing here is connected to real builds, players or OpenGameData</span><span>Vault Learning Games · draft for discussion</span></div>
+<div class="shell">
+  <aside class="side" aria-label="Portal navigation">
+    <div class="brand"><span class="mark" aria-hidden="true"></span>Vault</div>
+    <div class="studio-sw"><b>Field Day Lab</b><span>Studio admin · 9 games</span></div>
+    <nav class="nav">
+      <a href="#overview" data-nav="overview">Overview</a>
+      <a href="#games" data-nav="games">Games <span class="muted small">9</span></a>
+      <a href="#register" data-nav="register">Register a game</a>
+      <div class="nav-sep">Testing</div>
+      <a href="#tests" data-nav="tests">Test runs <em>1</em></a>
+      <a href="#protocols" data-nav="protocols">Test protocols</a>
+      <a href="#ogdtests" data-nav="ogdtests">OpenGameData tests</a>
+      <div class="nav-sep">Insights</div>
+      <a href="#analytics" data-nav="analytics">Play analytics</a>
+      <a href="#ogd" data-nav="ogd">OpenGameData</a>
+    </nav>
+    <div class="side-foot">Staging: your studio controls it.<br>Production: Vault reviews every release.</div>
+  </aside>
+  <main id="main" tabindex="-1"></main>
+</div>
+<div id="tip" role="tooltip"></div>
+<script src="charts.js"></script>
+<script src="data.js"></script>
+<button class="btn menu-btn" id="menu" type="button" style="position:fixed;top:40px;right:12px;z-index:45">Menu</button>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Static prototype of the Vault Studio Portal, served by nginx.
+FROM nginx:1.27-alpine
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY site/ /usr/share/nginx/html/
