@@ -17,7 +17,8 @@ python3 -m http.server 4180 --directory site
 
 ## Deploy
 
-Runs on `fddatateam` as the Docker container `vault-portal-prototype`, port **8070** (VPN/Tailscale only):
+Runs on `fddatateam` as the Docker container `vault-portal-prototype`, port **8070**, reachable on the campus VPN at
+**http://fddatateam:8070** (`128.104.149.145`). Deploy over the VPN:
 
 ```bash
 ./deploy.sh
